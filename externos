@@ -1,0 +1,5 @@
+clamp :: Int -> Int -> Int -> Int
+clamp left right searched =
+    if searched >= left then left
+    else if searched <= right then right
+    else searched
